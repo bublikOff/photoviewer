@@ -5,7 +5,7 @@
     android:background="#000000"
     tools:context=".PhotoActivity" >
 
-    <android.support.v7.widget.Toolbar
+    <FrameLayout
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
 
     </LinearLayout>
 
-    </android.support.v7.widget.Toolbar>
+    </FrameLayout>
 
     <ProgressBar
         android:id="@+id/progressBar1"
