@@ -9,9 +9,7 @@
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme">
+        android:background="#000000" >
 
     <LinearLayout
         android:id="@+id/fullscreen_content_controls"
@@ -35,9 +33,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center_vertical|center_horizontal"
-            tools:text="Заявка #10033100"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@android:color/primary_text_dark" />
+            android:textColor="@android:color/primary_text_dark"
+            tools:text="" />
 
         <ImageButton
             android:id="@+id/shareBtn"
@@ -46,7 +44,7 @@
             android:background="@android:color/transparent"
             android:padding="8dp"
             android:src="@android:drawable/ic_menu_share"
-            tools:text="Close" />
+            tools:text="Share" />
 
     </LinearLayout>
 
